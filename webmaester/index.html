@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+
+       
+        	var pages = {
+			    '0': {
+			        'content': '<img src="images/1-pointless-sword.jpg" />', 
+			    },
+			    '1': {
+			        'content': '<img src="images/2-winky-smiley.jpg" />', 
+			    },
+			    '2': {
+			        'content': '<img src="images/3-beavis-and-butthead.jpg" />', 
+			    },
+			    '3': {
+			        'content': '<img src="images/4-jrr-token.jpg" />', 
+			    },  
+			    '4': {
+			        'content': '<img src="images/5-no-you-do-it.jpg" />', 
+			    },  
+			    '5': {
+			        'content': '<img src="images/6-detached-head-state.jpg" />', 
+			    },  
+			    '6': {
+			        'content': '<img src="images/7-bash.jpg" />', 
+			    },  
+			    '7': {
+			        'content': '<img src="images/8-image-magick.jpg" />', 
+			    },  
+			    '8': {
+			        'content': '<img src="images/9-aethernet.jpg" />', 
+			    }, 
+			    '9': {
+			        'content': '<img src="images/10-factory.jpg" />', 
+			    },  
+			    '10': {
+			        'content': '<img src="images/11-cloud-man.jpg" />', 
+			    },
+			    '11': {
+			        'content': '<img src="images/12-space-javascript.jpg" />', 
+			    }, 
+			    '12': {
+			        'content': '<img src="images/13-the-cloud.jpg" />', 
+			    }, 			    			    		    			     			
+			    '13': {
+			        'content': '<img src="images/14-goodbye-world.jpg" />', 
+			    }, 
+			    '14': {
+			        'content': '<img src="images/15-syscrusher.jpg" />', 
+			    }, 
+			    '15': {
+			        'content': '<img src="images/16-fact-pattery.jpg" />', 
+			    } 			    			    			        			    			    			    			    			         
+			}
+
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				pageCount = Object.keys(pages).length;
+
+				var el = document.getElementById("main");
+
+				for (var i = 0; i < pageCount; i++) {
+				    el.innerHTML += '<article>' + pages[i]['content'] + '</article>';  
+				}	
+			});
+		
+  		</script>
+
+    </head>
+    <body>
+
+        <p>Webmaester</p>
+        <section id="main"></section>
+
+    </body>
+</html>
