@@ -1,0 +1,14 @@
+body {
+	max-width: 100%;
+}
+#main img {
+	display: none;
+}
+
+#colorbox #main img {
+	display: block;
+}
+
+img {
+	max-width: 100%;
+}
