@@ -6,6 +6,10 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/colorbox.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="../node_modules/jquery-colorbox/jquery.colorbox.js"></script> 
+		<script src="../js/script.js"></script>        
         <script>
 
        
@@ -71,12 +75,38 @@
 			});
 		
   		</script>
+		<style media="screen" type="text/css">
+			#main img {
+				display: none;
+			}
 
+			#colorbox #main img {
+				display: block;
+			}
+
+			img {
+				max-width: 100%;
+			}
+
+		</style>
     </head>
     <body>
+    	<img src="images/webmaester-cover.jpg" />
+        <h1>Webmaester</h1>
+        <p>Webmaester is an approximately 26 page long zine of calligraphic javascript code snippets, console logs, illustrated command line commands, and more.</p>
+        <p><a class='inline' href="#main">See most of it here</a>.</p>
+        <p>It costs $12.00, shipping and handling included, and you can buy it here:</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="HZ5ZXSW2TT3CS">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 
-        <p>Webmaester</p>
+<p>If you want it for free, write to us at trout at gonephishingpress.com and convince us that that is a good idea.</p>
+
+        
         <section id="main"></section>
-
+<a href="../">back to phishing</a>
     </body>
 </html>
