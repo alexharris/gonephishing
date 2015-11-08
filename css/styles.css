@@ -1,6 +1,8 @@
-body {
-	width: 100%;
+html {
+	font-size: 1rem;
+	margin: 20px;
 }
+
 #main img {
 	display: none;
 }
@@ -12,3 +14,21 @@ body {
 img {
 	max-width: 100%;
 }
+
+table td, table th {
+	padding: 10px;
+}
+
+ @media only screen and (max-width : 767px), screen and (max-device-width : 767px) {
+ 	html {
+ 		 	font-size: 1.8rem;
+ 		 }
+ 	table {
+ 		width: 100%;
+ 	}
+
+ 	.logo {
+ 		display: block;
+ 		margin: 0 auto;
+ 	}
+ }
